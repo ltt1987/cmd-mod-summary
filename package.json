@@ -1,0 +1,8 @@
+{
+	"name": "@ltt1987/cmd-mod-summary",
+	"version": "1.0.0",
+	"description": "A Command Code mod that records every model request's token usage into SQLite and reports cross-session totals behind /summary.",
+	"commandcode": {
+		"mods": ["./src/index.ts"]
+	}
+}
