@@ -7,6 +7,9 @@ Every model response carries its own usage block. This mod reads it off each req
 folds it into a SQLite row keyed by `(session id, model)`, and reports the totals through
 `/summary`.
 
+<img width="809" height="774" alt="image" src="https://github.com/user-attachments/assets/705c7cae-e451-4ac8-98d1-aed75d473b47" />
+
+
 ## Features
 
 - Records `input`, `output`, `cache read` and `cache write` tokens for every model request.
